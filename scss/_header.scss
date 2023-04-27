@@ -1,0 +1,29 @@
+header {
+    height: 390px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logo {
+        height: 200px;
+        width: 300px;
+        padding: 20px;
+    }
+    .nav {
+        display: flex;
+        width: 600px;
+        justify-content: space-evenly;
+        .lista{
+            width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #c33c23;
+                font-size: 30px;
+            }
+        }  
+    }
+}

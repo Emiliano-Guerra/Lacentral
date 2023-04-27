@@ -1,0 +1,186 @@
+main {
+    .inicio{
+        background-color: $color-main;
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .imgindex{
+            border: $border;
+        }
+    }
+}
+#main {
+    background-color: #1c5441;
+    padding: 20px;
+}
+main {
+    .title {
+        color: $color-titles;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subtitulo {
+        color: $color-titles;
+        font-size: 25px;
+        margin: 40px;
+        @extend .title
+    }
+    .grillaPanes {
+        color: $color-textgrilla;
+        border: $border;
+        background-image: $background-grilla;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'uno dos tres';
+        justify-items: center;
+        justify-content: space-between;
+        align-content: space-around;
+        .pan {
+            height: $size-grilla;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pan:first-child {
+            grid-area: uno;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        .pan:nth-child(2) {
+            grid-area: dos;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        .pan:nth-child(3) {
+            grid-area: tres;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+    }
+    .grillaTfrias {
+        @extend .grillaPanes;
+        .frias {
+            @extend .pan;
+        }
+        .frias:first-child {
+            margin: $margin-grilla;
+            grid-area: uno;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .frias:nth-child(2) {
+            margin: $margin-grilla;
+            grid-area: dos;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        .frias:nth-child(3) {
+            grid-area: tres;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+    }
+    .grillaTcalientes {
+        @extend .grillaPanes;
+        .calientes {
+            @extend .pan;
+        }
+        .calientes:first-child {
+            margin: $margin-grilla;
+            grid-area: uno;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .calientes:nth-child(2) {
+            margin: $margin-grilla;
+            grid-area: dos;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        .calientes:nth-child(3) {
+            grid-area: tres;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+    }
+    .grillabebidas {
+        color: $color-textgrilla;
+        border: $border;
+        background-image: $background-grilla;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        'uno dos'
+        'tres cuatro';
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        .cocktail {
+            height: $size-grilla;
+            width: $size-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .cocktail:first-child {
+            grid-area: uno;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .cocktail:nth-child(2) {
+            grid-area: dos;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .cocktail:nth-child(3) {
+            grid-area: tres;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .cocktail:nth-child(4) {
+            grid-area: cuatro;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}
