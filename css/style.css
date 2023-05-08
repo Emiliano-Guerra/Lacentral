@@ -62,7 +62,7 @@ main .subtitulo {
   font-size: 25px;
   margin: 40px;
 }
-main .grillaPanes, main .grillaTcalientes, main .grillaTfrias {
+main .grillaPanes {
   color: black;
   border: #faa63b solid 5px;
   background-image: linear-gradient(white, #c33c23);
@@ -73,13 +73,13 @@ main .grillaPanes, main .grillaTcalientes, main .grillaTfrias {
   justify-content: space-between;
   align-content: space-around;
 }
-main .grillaPanes .pan, main .grillaTcalientes .pan, main .grillaTcalientes .calientes, main .grillaTfrias .pan, main .grillaTfrias .frias {
+main .grillaPanes .pan {
   height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .grillaPanes .pan:first-child, main .grillaTcalientes .pan:first-child, main .grillaTcalientes .calientes:first-child, main .grillaTfrias .pan:first-child, main .grillaTfrias .frias:first-child {
+main .grillaPanes .pan:first-child {
   grid-area: uno;
   margin: 10px;
   display: flex;
@@ -87,7 +87,7 @@ main .grillaPanes .pan:first-child, main .grillaTcalientes .pan:first-child, mai
   justify-content: space-evenly;
   align-content: center;
 }
-main .grillaPanes .pan:nth-child(2), main .grillaTcalientes .pan:nth-child(2), main .grillaTcalientes .calientes:nth-child(2), main .grillaTfrias .pan:nth-child(2), main .grillaTfrias .frias:nth-child(2) {
+main .grillaPanes .pan:nth-child(2) {
   grid-area: dos;
   margin: 10px;
   display: flex;
@@ -95,13 +95,34 @@ main .grillaPanes .pan:nth-child(2), main .grillaTcalientes .pan:nth-child(2), m
   justify-content: space-evenly;
   align-content: center;
 }
-main .grillaPanes .pan:nth-child(3), main .grillaTcalientes .pan:nth-child(3), main .grillaTcalientes .calientes:nth-child(3), main .grillaTfrias .pan:nth-child(3), main .grillaTfrias .frias:nth-child(3) {
+main .grillaPanes .pan:nth-child(3) {
   grid-area: tres;
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
+}
+main .grillaTfrias {
+  /* @extend .grillaPanes;
+  .frias {
+      @extend .pan;
+  } */
+  color: black;
+  border: #faa63b solid 5px;
+  background-image: linear-gradient(white, #c33c23);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "uno dos tres";
+  justify-items: center;
+  justify-content: space-between;
+  align-content: space-around;
+}
+main .grillaTfrias .frias {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .grillaTfrias .frias:first-child {
   margin: 10px;
@@ -126,6 +147,27 @@ main .grillaTfrias .frias:nth-child(3) {
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
+}
+main .grillaTcalientes {
+  color: black;
+  border: #faa63b solid 5px;
+  background-image: linear-gradient(white, #c33c23);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "uno dos tres";
+  justify-items: center;
+  justify-content: space-between;
+  align-content: space-around;
+  /* @extend .grillaPanes;
+  .calientes {
+      @extend .pan;
+  } */
+}
+main .grillaTcalientes .calientes {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .grillaTcalientes .calientes:first-child {
   margin: 10px;
@@ -216,10 +258,10 @@ footer .infofooter {
   flex-direction: column;
   align-content: space-between;
 }
-footer .infofooter h1 {
+footer .infofooter h2 {
   font-size: 30px;
 }
-footer .infofooter h2 {
+footer .infofooter h3 {
   font-size: 20px;
 }
 footer .links {
@@ -253,13 +295,13 @@ footer .links a {
     width: 300px;
     height: 300px;
   }
-  .grillaPanes, main .grillaTfrias, main .grillaTcalientes {
+  .grillaPanes {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .pan, main .grillaTfrias .frias, main .grillaTcalientes .calientes {
-    height: 550px;
+  .pan {
+    height: 400px;
   }
   .grillaTfrias {
     display: flex;
