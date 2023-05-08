@@ -1,0 +1,70 @@
+@media (max-width: $desktop){
+    .imgindex img{
+        flex: wrap;
+        width: 700px;
+        height: 700px;
+    }
+}
+@media (max-width: $tableth){
+    header {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        padding: 10px 20px;
+    }
+    .imgindex img{
+        flex: wrap;
+        width: 300px;
+        height: 300px;
+    }
+    .grillaPanes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .pan {
+        height: 400px;
+    }
+    .grillaTfrias{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .frias {
+        height: 400px;
+    }
+    .grillaTcalientes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .calientes {
+        height: 400px;
+    }
+    .grillabebidas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .cocktail {
+        height: 400px;
+    }
+}
+@media (max-width: $tabletv){
+    .lista {
+        flex-direction: column;
+    }
+    .nav{
+        width: 110px;
+    }
+}
+@media (max-width: $mobile){
+    #header {
+        height: 500px;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
