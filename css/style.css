@@ -6,7 +6,7 @@
 
 header {
   height: 390px;
-  background-color: white;
+  background-color: #faa63b;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,6 +15,9 @@ header .logo {
   height: 200px;
   width: 300px;
   padding: 20px;
+}
+header .logo .logoimagen {
+  border-radius: 50%;
 }
 header .nav {
   display: flex;
@@ -30,7 +33,7 @@ header .nav .lista {
 }
 header .nav .lista a {
   text-decoration: none;
-  color: #c33c23;
+  color: black;
   font-size: 30px;
 }
 
@@ -40,9 +43,6 @@ main .inicio {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-main .inicio .imgindex {
-  border: #faa63b solid 5px;
 }
 
 #main {
@@ -65,7 +65,7 @@ main .subtitulo {
 main .grillaPanes {
   color: black;
   border: #faa63b solid 5px;
-  background-image: linear-gradient(white, #c33c23);
+  background-image: linear-gradient(white, #c33b22);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "uno dos tres";
@@ -78,6 +78,9 @@ main .grillaPanes .pan {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+main .grillaPanes .pan .bordesfotos {
+  border-radius: 10%;
 }
 main .grillaPanes .pan:first-child {
   grid-area: uno;
@@ -110,7 +113,7 @@ main .grillaTfrias {
   } */
   color: black;
   border: #faa63b solid 5px;
-  background-image: linear-gradient(white, #c33c23);
+  background-image: linear-gradient(white, #c33b22);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "uno dos tres";
@@ -123,6 +126,9 @@ main .grillaTfrias .frias {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+main .grillaTfrias .frias .bordesfotos {
+  border-radius: 10%;
 }
 main .grillaTfrias .frias:first-child {
   margin: 10px;
@@ -151,7 +157,7 @@ main .grillaTfrias .frias:nth-child(3) {
 main .grillaTcalientes {
   color: black;
   border: #faa63b solid 5px;
-  background-image: linear-gradient(white, #c33c23);
+  background-image: linear-gradient(white, #c33b22);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "uno dos tres";
@@ -168,6 +174,9 @@ main .grillaTcalientes .calientes {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+main .grillaTcalientes .calientes .bordesfotos {
+  border-radius: 10%;
 }
 main .grillaTcalientes .calientes:first-child {
   margin: 10px;
@@ -196,7 +205,7 @@ main .grillaTcalientes .calientes:nth-child(3) {
 main .grillabebidas {
   color: black;
   border: #faa63b solid 5px;
-  background-image: linear-gradient(white, #c33c23);
+  background-image: linear-gradient(white, #c33b22);
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,6 +221,9 @@ main .grillabebidas .cocktail {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+main .grillabebidas .cocktail .bordesfotos {
+  border-radius: 10%;
 }
 main .grillabebidas .cocktail:first-child {
   grid-area: uno;

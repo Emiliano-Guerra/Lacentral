@@ -4,10 +4,7 @@ main {
         padding: 30px;
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        .imgindex{
-            border: $border;
-        }
+        align-items: cer;
     }
 }
 #main {
@@ -43,6 +40,9 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            .bordesfotos {
+                border-radius: 10%;
+            }
         }
         .pan:first-child {
             grid-area: uno;
@@ -88,6 +88,9 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            .bordesfotos {
+                border-radius: 10%;
+            }
         }
         .frias:first-child {
             margin: $margin-grilla;
@@ -133,6 +136,9 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            .bordesfotos {
+                border-radius: 10%;
+            }
         }
         .calientes:first-child {
             margin: $margin-grilla;
@@ -179,6 +185,9 @@ main {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            .bordesfotos {
+                border-radius: 10%;
+            }
         }
         .cocktail:first-child {
             grid-area: uno;
