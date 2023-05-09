@@ -1,8 +1,12 @@
 @media (max-width: $desktop){
-    .imgindex img{
-        flex: wrap;
-        width: 700px;
-        height: 700px;
+    header{
+        .logo{
+            height: 300px;
+            width: 300px;
+        }
+        .lista{
+            width: 600px;
+        }
     }
 }
 @media (max-width: $tableth){
@@ -17,8 +21,14 @@
     main {
         .imgindex img{
             flex: wrap;
-            width: 300px;
-            height: 300px;
+            width: 400px;
+            height: 600px;
+        }
+        .inicio {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
         }
         .grillaPanes{
             display: flex;
@@ -56,17 +66,24 @@
     
 }
 @media (max-width: $tabletv){
-    .lista {
-        flex-direction: column;
+    header {
+        height: 700px;
     }
-    .nav{
-        width: 110px;
+    main {
+        .imgindex img{
+            flex: wrap;
+            width: 300px;
+            height: 500px;
+        }
+    }
+    .lista {
+        width: 300px;
+        flex-direction: column;
     }
 }
 @media (max-width: $mobile){
     #header {
-        height: 500px;
-        flex-direction: column;
+        height: 650px;
     }
     .title{
         font-size: 30px;
