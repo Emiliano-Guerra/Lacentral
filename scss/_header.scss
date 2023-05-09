@@ -1,6 +1,6 @@
 header {
     height: 390px;
-    background-color:$amarillo;
+    background-color: $amarillo;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,6 +10,7 @@ header {
         padding: 20px;
         .logoimagen{
             border-radius: 50%;
+            border: solid $amarillo;
         }
     }
     .lista{

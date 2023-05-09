@@ -21,7 +21,7 @@
 </head>
 <body>
     <!---------------------------------------------------- HEADER ------------------------------------------------------->
-    <header id="header">
+    <header>
         <div class="logo">
             <a href="../index.html">
             <img src="../img/logo/logoblanco-min.png" class="logoimagen" alt="Logo">
@@ -32,16 +32,16 @@
                 <li><a href="inicio.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="tapas.html">Tapas</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
+                <li><a href="bebidas.html">Cócteles</a></li>
                 <li><a href="reservas.html">Reservas</a></li>
             </ul>
         </nav>
     </header>
     <!---------------------------------------- MENU-FORMULARIO APLICADO CON BOOTSTRAP ------------------------------------>
-    <main id="main">
+    <main>
         <section class="container">
-            <div class="d-flex justify-content-center">
-                <h1>Realizá tu reserva</h1>
+            <div class="d-flex justify-content-start" class="display-1">
+                <h1 class="text-success"><strong>Realizá tu reserva</strong></h1>
             </div>
             <div class="row" class="d-flex justify-content-center">
                 <form class="col-12">
@@ -54,13 +54,13 @@
                     </div>
                   
                     <div class="mb-3">
-                        <label for="basic-url" class="form-label">Cantidad de personas</label>
+                        <label for="basic-url" class="form-label"><p class="text-success"><strong>Cantidad de personas</strong></p></label>
                         <div class="input-group">
                         <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="basic-url" class="form-label">Fecha</label>
+                        <label for="basic-url" class="form-label"><p class="text-success">Fecha</p></label> 
                         <div class="input-group">
                             <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
                         </div>
@@ -68,22 +68,22 @@
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
-                            22:00 hs
+                            <p class="text-success">22:00hs</p>
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                         <label class="form-check-label" for="flexRadioDefault2">
-                            21:00hs
+                            <p class="text-success">21:00hs</p>
                         </label>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Adentro</label>
+                        <label class="form-check-label" for="exampleCheck1"><p class="text-success">Adentro</p></label>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Afuera</label>
+                        <label class="form-check-label" for="exampleCheck1"><p class="text-success">Afuera</p></label>
                     </div>
                     <div>
                         <button type="submit" class="btn btn-success">Aceptar</button>
@@ -97,6 +97,7 @@
         <div class="infofooter">
             <h2>La Central Vermutería - 2023</h2>
             <h3>Av. Bartolomé Mitre 794, Mendoza, Argentina</h3>
+            <h3>+54 9 2612 76-5334</h3>
         </div>
         <div class="links">
             <a href="https://www.instagram.com/lacentral.vermu/"Target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>

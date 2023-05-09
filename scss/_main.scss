@@ -1,5 +1,5 @@
 main {
-    padding: 20px;
+    padding: 200px;
     background-color: rgba(3, 1, 1, 0.918);
     .Inicio{
         padding: 30px;
@@ -78,6 +78,7 @@ main {
             }
             .bordesfotos {
                 border-radius: 10%;
+                border: solid $amarillo;
             }
         }
         .pan:first-child {
@@ -138,6 +139,7 @@ main {
             }
             .bordesfotos {
                 border-radius: 10%;
+                border: solid $amarillo;
             }
         }
         .frias:first-child {
@@ -198,6 +200,7 @@ main {
             }
             .bordesfotos {
                 border-radius: 10%;
+                border: solid $amarillo;
             }
         }
         .calientes:first-child {
@@ -258,6 +261,7 @@ main {
             }
             .bordesfotos {
                 border-radius: 10%;
+                border: solid $amarillo;
             }
         }
         .cocktail:first-child {

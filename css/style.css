@@ -6,7 +6,7 @@
 
 header {
   height: 390px;
-  background-color: #faa63b;
+  background-color: #f8a63b;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,6 +18,7 @@ header .logo {
 }
 header .logo .logoimagen {
   border-radius: 50%;
+  border: solid #f8a63b;
 }
 header .lista {
   width: 700px;
@@ -34,7 +35,7 @@ header .lista a {
 }
 
 main {
-  padding: 20px;
+  padding: 200px;
   background-color: rgba(3, 1, 1, 0.918);
 }
 main .Inicio {
@@ -45,7 +46,7 @@ main .Inicio {
 }
 main .imgindex {
   border-radius: 1%;
-  border: #faa63b solid 5px;
+  border: #f8a63b solid 5px;
 }
 main .introduccion {
   border-radius: 10%;
@@ -60,7 +61,7 @@ main .introduccion {
 }
 main .introduccion h1 {
   text-align: center;
-  color: #faa63b;
+  color: #f8a63b;
   font-size: 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
 }
@@ -71,7 +72,7 @@ main .introduccion p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
 }
 main .title, main .subtitulo {
-  color: #1c5441;
+  color: #1a7b61;
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -80,12 +81,12 @@ main .title, main .subtitulo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
 }
 main .subtitulo {
-  color: #1c5441;
+  color: #1a7b61;
   font-size: 25px;
   margin: 100px;
 }
 main .grillaPanes {
-  border: #faa63b solid 5px;
+  border: #f8a63b solid 5px;
   border-radius: 2%;
   background-image: linear-gradient(#1c5441, grey);
   display: grid;
@@ -115,6 +116,7 @@ main .grillaPanes .pan p {
 }
 main .grillaPanes .pan .bordesfotos {
   border-radius: 10%;
+  border: solid #f8a63b;
 }
 main .grillaPanes .pan:first-child {
   grid-area: uno;
@@ -146,7 +148,7 @@ main .grillaTfrias {
       @extend .pan;
   } */
   border-radius: 1%;
-  border: #faa63b solid 5px;
+  border: #f8a63b solid 5px;
   background-image: linear-gradient(#1c5441, grey);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -175,6 +177,7 @@ main .grillaTfrias .frias p {
 }
 main .grillaTfrias .frias .bordesfotos {
   border-radius: 10%;
+  border: solid #f8a63b;
 }
 main .grillaTfrias .frias:first-child {
   margin: 10px;
@@ -202,7 +205,7 @@ main .grillaTfrias .frias:nth-child(3) {
 }
 main .grillaTcalientes {
   border-radius: 1%;
-  border: #faa63b solid 5px;
+  border: #f8a63b solid 5px;
   background-image: linear-gradient(#1c5441, grey);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -235,6 +238,7 @@ main .grillaTcalientes .calientes p {
 }
 main .grillaTcalientes .calientes .bordesfotos {
   border-radius: 10%;
+  border: solid #f8a63b;
 }
 main .grillaTcalientes .calientes:first-child {
   margin: 10px;
@@ -261,7 +265,7 @@ main .grillaTcalientes .calientes:nth-child(3) {
   align-content: center;
 }
 main .grillabebidas {
-  border: #faa63b solid 5px;
+  border: #f8a63b solid 5px;
   background-image: linear-gradient(#1c5441, grey);
   padding: 30px;
   display: grid;
@@ -293,6 +297,7 @@ main .grillabebidas .cocktail p {
 }
 main .grillabebidas .cocktail .bordesfotos {
   border-radius: 10%;
+  border: solid #f8a63b;
 }
 main .grillabebidas .cocktail:first-child {
   grid-area: uno;
@@ -328,7 +333,7 @@ main .grillabebidas .cocktail:nth-child(4) {
 }
 
 footer {
-  background-color: #faa63b;
+  background-color: #f8a63b;
   padding: 20px;
   height: 150px;
   display: flex;
@@ -339,6 +344,7 @@ footer .infofooter {
   display: flex;
   flex-direction: column;
   align-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
 }
 footer .infofooter h2 {
   font-size: 30px;
@@ -357,7 +363,7 @@ footer .links a {
   color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1072px) {
   header .logo {
     height: 300px;
     width: 300px;
