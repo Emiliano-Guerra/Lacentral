@@ -21,7 +21,7 @@ header .logo .logoimagen {
   border: solid #fbca76;
 }
 header .lista {
-  width: 700px;
+  width: 800px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
