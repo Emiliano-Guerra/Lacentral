@@ -31,12 +31,12 @@ header .lista a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.979);
   font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 main {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #1a5947;
 }
 main .Inicio {
@@ -65,22 +65,22 @@ main .introduccion h1 {
   text-align: center;
   color: #fbca76;
   font-size: 50px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Pacifico", cursive;
 }
 main .introduccion p {
   text-align: center;
   color: rgba(0, 0, 0, 0.979);
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
 }
 main .title, main .subtitulo {
   color: #f49f33;
-  font-size: 50px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   text-align: center;
   margin: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Pacifico", cursive;
 }
 main .subtitulo {
   color: #f49f33;
@@ -88,6 +88,7 @@ main .subtitulo {
   margin: 100px;
 }
 main .grillaPanes {
+  margin: 30px;
   border: #010403 solid 5px;
   border-radius: 2%;
   background-image: radial-gradient(#b44433, #f49f33);
@@ -107,16 +108,16 @@ main .grillaPanes .pan {
 main .grillaPanes .pan h3 {
   text-align: center;
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
   color: rgba(0, 0, 0, 0.979);
 }
 main .grillaPanes .pan p {
   font-size: 25px;
   text-align: center;
   color: rgba(0, 0, 0, 0.979);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Pacifico", cursive;
 }
-main .grillaPanes .pan .bordesfotos {
+main .grillaPanes .pan img {
   border-radius: 10%;
   border: solid #f49f33;
 }
@@ -149,6 +150,7 @@ main .grillaTfrias {
   .frias {
       @extend .pan;
   } */
+  margin: 30px;
   border-radius: 1%;
   border: #010403 solid 5px;
   background-image: radial-gradient(#b44433, #f49f33);
@@ -168,14 +170,14 @@ main .grillaTfrias .frias {
 main .grillaTfrias .frias h3 {
   text-align: center;
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
   color: rgba(0, 0, 0, 0.979);
 }
 main .grillaTfrias .frias p {
   font-size: 25px;
   text-align: center;
   color: rgba(0, 0, 0, 0.979);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Pacifico", cursive;
 }
 main .grillaTfrias .frias .bordesfotos {
   border-radius: 10%;
@@ -206,6 +208,7 @@ main .grillaTfrias .frias:nth-child(3) {
   align-content: center;
 }
 main .grillaTcalientes {
+  margin: 30px;
   border-radius: 1%;
   border: #010403 solid 5px;
   background-image: radial-gradient(#b44433, #f49f33);
@@ -229,14 +232,14 @@ main .grillaTcalientes .calientes {
 main .grillaTcalientes .calientes h3 {
   text-align: center;
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
   color: rgba(0, 0, 0, 0.979);
 }
 main .grillaTcalientes .calientes p {
   font-size: 25px;
   text-align: center;
   color: rgba(0, 0, 0, 0.979);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Pacifico", cursive;
 }
 main .grillaTcalientes .calientes .bordesfotos {
   border-radius: 10%;
@@ -267,20 +270,19 @@ main .grillaTcalientes .calientes:nth-child(3) {
   align-content: center;
 }
 main .grillabebidas {
+  margin: 30px;
   border: #010403 solid 5px;
   background-image: radial-gradient(#b44433, #f49f33);
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "uno dos" "tres cuatro";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "uno dos" "tres cuatro" "cinco seis";
   justify-content: center;
   align-content: center;
   justify-items: center;
 }
 main .grillabebidas .cocktail {
-  height: 600px;
-  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -288,14 +290,14 @@ main .grillabebidas .cocktail {
 main .grillabebidas .cocktail h3 {
   text-align: center;
   font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
   color: rgba(0, 0, 0, 0.979);
 }
 main .grillabebidas .cocktail p {
   font-size: 20px;
   text-align: center;
   color: rgba(0, 0, 0, 0.979);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Love Light", cursive;
 }
 main .grillabebidas .cocktail .bordesfotos {
   border-radius: 10%;
@@ -333,6 +335,22 @@ main .grillabebidas .cocktail:nth-child(4) {
   justify-content: space-evenly;
   align-items: center;
 }
+main .grillabebidas .cocktail:nth-child(5) {
+  grid-area: cinco;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .grillabebidas .cocktail:nth-child(6) {
+  grid-area: seis;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 footer {
   background-color: #fbca76;
@@ -347,7 +365,8 @@ footer .infofooter {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", serif;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 2;
 }
 footer .infofooter h2 {
   font-size: 30px;
@@ -446,7 +465,7 @@ footer .links a {
   #header {
     height: 650px;
   }
-  .title, main .subtitulo {
+  main section .title, main section .subtitulo {
     font-size: 30px;
   }
 }

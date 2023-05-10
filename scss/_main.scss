@@ -1,6 +1,6 @@
 main {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #1a5947;
     .Inicio{
         padding: 30px;
@@ -27,23 +27,23 @@ main {
             text-align: center;
             color: $amarillo;
             font-size: 50px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            font-family: 'Pacifico', cursive;
         }
         p {
             text-align: center;
             color: $negro;
             font-size: 30px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+            font-family: 'Ubuntu', sans-serif;
         }
     }
     .title {
         color:$verde;
-        font-size: 50px;
+        font-size: 40px;
         display: flex;
         justify-content: center;
         text-align: center;
         margin: 40px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+        font-family: 'Pacifico', cursive;
     }
     .subtitulo {
         color:$verde;
@@ -52,6 +52,7 @@ main {
         @extend .title
     }
     .grillaPanes {
+        margin: 30px;
         border: $border;
         border-radius: 2%;
         background-image: $colorimage;
@@ -69,16 +70,16 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Ubuntu', sans-serif;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Pacifico', cursive;
             }
-            .bordesfotos {
+            img {
                 border-radius: 10%;
                 border: solid $verde;
             }
@@ -113,6 +114,7 @@ main {
         .frias {
             @extend .pan;
         } */
+        margin: 30px;
         border-radius: 1%;
         border: $border;
         background-image: $colorimage;
@@ -130,14 +132,14 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Ubuntu', sans-serif;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Pacifico', cursive;
             }
             .bordesfotos {
                 border-radius: 10%;
@@ -170,6 +172,7 @@ main {
         }
     }
     .grillaTcalientes {
+        margin: 30px;
         border-radius: 1%;
         border: $border;
         background-image: $colorimage;
@@ -191,14 +194,14 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Ubuntu', sans-serif;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Pacifico', cursive;
             }
             .bordesfotos {
                 border-radius: 10%;
@@ -231,35 +234,35 @@ main {
         }
     }
     .grillabebidas {
+        margin: 30px;
         border: $border;
         background-image: $colorimage;
         padding: 30px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
         'uno dos'
-        'tres cuatro';
+        'tres cuatro'
+        'cinco seis';
         justify-content: center;
         align-content: center;
         justify-items: center;
         .cocktail {
-            height: $size-grilla;
-            width: $size-grilla;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Ubuntu', sans-serif;
                 color:$negro;
             }
             p {
                 font-size: 20px;
                 text-align: center;
                 color:$negro;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+                font-family: 'Love Light', cursive;
             }
             .bordesfotos {
                 border-radius: 10%;
@@ -292,6 +295,22 @@ main {
         }
         .cocktail:nth-child(4) {
             grid-area: cuatro;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .cocktail:nth-child(5) {
+            grid-area: cinco;
+            margin: $margin-grilla;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .cocktail:nth-child(6) {
+            grid-area: seis;
             margin: $margin-grilla;
             display: flex;
             flex-direction: column;
