@@ -1,21 +1,22 @@
 footer {
     background-color: $amarillo;
     padding: 20px;
-    height: 150px;
+    height: 300px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     .infofooter {
+        height: 250px;
         display: flex;
         flex-direction: column;
-        align-content: space-between;
+        justify-content: center;
         h2 {font-size: 30px;}
         h3 {font-size: 20px;}
         font-family: $fuente;
     }
     .links {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         display: flex;
         justify-content: space-around;
         align-items: center;
