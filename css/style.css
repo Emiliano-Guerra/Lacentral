@@ -35,11 +35,11 @@ header .lista a {
 }
 
 main {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #1a5947;
 }
 main .Inicio {
-  padding: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -53,6 +53,7 @@ main .introduccion {
   border-radius: 10%;
   background-image: radial-gradient(#b44433, #f49f33);
   width: 400px;
+  height: 700px;
   margin: 30px;
   padding: 30px;
   display: flex;

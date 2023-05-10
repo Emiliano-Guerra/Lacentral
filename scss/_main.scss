@@ -1,8 +1,8 @@
 main {
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #1a5947;
     .Inicio{
-        padding: 30px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -16,6 +16,7 @@ main {
         border-radius: 10%;
         background-image:$colorimage;
         width: 400px;
+        height: 700px;
         margin: 30px;
         padding: 30px;
         display: flex;
