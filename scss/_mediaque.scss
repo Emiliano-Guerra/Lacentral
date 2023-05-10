@@ -63,7 +63,10 @@
             height: 400px;
         }
     }
-    
+    footer {
+        height: 400px;
+        flex-direction: column;
+    } 
 }
 @media (max-width: $tabletv){
     header {
@@ -82,7 +85,7 @@
     }
 }
 @media (max-width: $mobile){
-    #header {
+    header {
         height: 650px;
     }
     main {
@@ -91,5 +94,5 @@
             font-size: 30px;
         }
        } 
-    } 
+    }
 }

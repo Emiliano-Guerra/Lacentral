@@ -43,7 +43,7 @@ main {
         justify-content: center;
         text-align: center;
         margin: 40px;
-        font-family: 'Pacifico', cursive;
+        font-family: 'Permanent Marker', cursive;
     }
     .subtitulo {
         color:$verde;
@@ -317,5 +317,11 @@ main {
             justify-content: space-evenly;
             align-items: center;
         }
+    }
+    .naranja {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
     }
 }

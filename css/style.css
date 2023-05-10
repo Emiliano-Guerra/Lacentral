@@ -80,7 +80,7 @@ main .title, main .subtitulo {
   justify-content: center;
   text-align: center;
   margin: 40px;
-  font-family: "Pacifico", cursive;
+  font-family: "Permanent Marker", cursive;
 }
 main .subtitulo {
   color: #f49f33;
@@ -351,6 +351,12 @@ main .grillabebidas .cocktail:nth-child(6) {
   justify-content: space-evenly;
   align-items: center;
 }
+main .naranja {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
 
 footer {
   background-color: #fbca76;
@@ -446,6 +452,10 @@ footer .links a {
   main .cocktail {
     height: 400px;
   }
+  footer {
+    height: 400px;
+    flex-direction: column;
+  }
 }
 @media (max-width: 600px) {
   header {
@@ -462,7 +472,7 @@ footer .links a {
   }
 }
 @media (max-width: 480px) {
-  #header {
+  header {
     height: 650px;
   }
   main section .title, main section .subtitulo {
