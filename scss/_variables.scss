@@ -1,12 +1,20 @@
+/*************** COLORES ********************/
 $amarillo: #fbca76;
-$verde:#f49f33;
+$naranja:#f49f33;
+$rojo:#b44433;
+$verde:#1a5947;
 $negro: rgba(0, 0, 0, 0.979);
 $blanco:white;
-$colorimage: radial-gradient( #b44433,#f49f33);
+$colorimage: radial-gradient( #b44433,$naranja);
 $border: #010403 solid 5px;
-$fuente:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+/*************** LETRAS ********************/
+$manuscrita:'Pacifico', cursive;
+$titulos:'Permanent Marker', cursive;
+$subtitulos:'Ubuntu', sans-serif;
+/*************** GRILLAS ******************/
 $size-grilla: 600px;
 $margin-grilla: 10px;
+/*************** QUERIES *******************/
 $desktop:1072px;
 $tableth:768px;
 $tabletv:600px;

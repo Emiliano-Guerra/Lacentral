@@ -10,7 +10,6 @@ header {
         padding: 20px;
         .logoimagen{
             border-radius: 50%;
-            border: solid $amarillo;
         }
     }
     .lista{
@@ -23,7 +22,7 @@ header {
             text-decoration: none;
             color:$negro;
             font-size: 40px;
-            font-family: 'Ubuntu', sans-serif;
+            font-family:$subtitulos;
         }
     }  
 }

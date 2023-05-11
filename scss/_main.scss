@@ -1,7 +1,7 @@
 main {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #1a5947;
+    background-color:$verde;
     .Inicio{
         padding: 30px;
         display: flex;
@@ -27,26 +27,26 @@ main {
             text-align: center;
             color: $amarillo;
             font-size: 50px;
-            font-family: 'Pacifico', cursive;
+            font-family:$manuscrita;
         }
         p {
             text-align: center;
             color: $negro;
             font-size: 30px;
-            font-family: 'Ubuntu', sans-serif;
+            font-family:$subtitulos;
         }
     }
     .title {
-        color:$verde;
+        color:$naranja;
         font-size: 40px;
         display: flex;
         justify-content: center;
         text-align: center;
         margin: 40px;
-        font-family: 'Permanent Marker', cursive;
+        font-family:$titulos;
     }
     .subtitulo {
-        color:$verde;
+        color:$naranja;
         font-size: 25px;
         margin: 100px;
         @extend .title
@@ -70,18 +70,18 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family:$subtitulos;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Pacifico', cursive;
+                font-family:$manuscrita;
             }
             img {
                 border-radius: 10%;
-                border: solid $verde;
+                border: solid $amarillo;
             }
         }
         .pan:first-child {
@@ -110,10 +110,6 @@ main {
         }
     }
     .grillaTfrias {
-        /* @extend .grillaPanes;
-        .frias {
-            @extend .pan;
-        } */
         margin: 30px;
         border-radius: 1%;
         border: $border;
@@ -132,18 +128,18 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family:$subtitulos;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Pacifico', cursive;
+                font-family:$manuscrita;
             }
             .bordesfotos {
                 border-radius: 10%;
-                border: solid $verde;
+                border: solid $amarillo;
             }
         }
         .frias:first-child {
@@ -182,10 +178,6 @@ main {
         justify-items: center;
         justify-content: space-between;
         align-content: space-around;
-        /* @extend .grillaPanes;
-        .calientes {
-            @extend .pan;
-        } */
         .calientes{
             height: $size-grilla;
             display: flex;
@@ -194,18 +186,18 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family:$subtitulos;
                 color:$negro;
             }
             p {
                 font-size: 25px;
                 text-align: center;
                 color:$negro;
-                font-family: 'Pacifico', cursive;
+                font-family:$manuscrita;
             }
             .bordesfotos {
                 border-radius: 10%;
-                border: solid $verde;
+                border: solid $amarillo;
             }
         }
         .calientes:first-child {
@@ -255,7 +247,7 @@ main {
             h3 {
                 text-align: center;
                 font-size: 30px;
-                font-family: 'Ubuntu', sans-serif;
+                font-family:$subtitulos;
                 color:$negro;
             }
             p {
@@ -266,7 +258,7 @@ main {
             }
             .bordesfotos {
                 border-radius: 10%;
-                border: solid $verde;
+                border: solid $amarillo;
             }
         }
         .cocktail:first-child {

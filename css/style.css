@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/*************** COLORES ********************/
+/*************** LETRAS ********************/
+/*************** GRILLAS ******************/
+/*************** QUERIES *******************/
 header {
   height: 340px;
   background-color: #fbca76;
@@ -18,7 +22,6 @@ header .logo {
 }
 header .logo .logoimagen {
   border-radius: 50%;
-  border: solid #fbca76;
 }
 header .lista {
   width: 800px;
@@ -119,7 +122,7 @@ main .grillaPanes .pan p {
 }
 main .grillaPanes .pan img {
   border-radius: 10%;
-  border: solid #f49f33;
+  border: solid #fbca76;
 }
 main .grillaPanes .pan:first-child {
   grid-area: uno;
@@ -146,10 +149,6 @@ main .grillaPanes .pan:nth-child(3) {
   align-content: center;
 }
 main .grillaTfrias {
-  /* @extend .grillaPanes;
-  .frias {
-      @extend .pan;
-  } */
   margin: 30px;
   border-radius: 1%;
   border: #010403 solid 5px;
@@ -181,7 +180,7 @@ main .grillaTfrias .frias p {
 }
 main .grillaTfrias .frias .bordesfotos {
   border-radius: 10%;
-  border: solid #f49f33;
+  border: solid #fbca76;
 }
 main .grillaTfrias .frias:first-child {
   margin: 10px;
@@ -218,10 +217,6 @@ main .grillaTcalientes {
   justify-items: center;
   justify-content: space-between;
   align-content: space-around;
-  /* @extend .grillaPanes;
-  .calientes {
-      @extend .pan;
-  } */
 }
 main .grillaTcalientes .calientes {
   height: 600px;
@@ -243,7 +238,7 @@ main .grillaTcalientes .calientes p {
 }
 main .grillaTcalientes .calientes .bordesfotos {
   border-radius: 10%;
-  border: solid #f49f33;
+  border: solid #fbca76;
 }
 main .grillaTcalientes .calientes:first-child {
   margin: 10px;
@@ -301,7 +296,7 @@ main .grillabebidas .cocktail p {
 }
 main .grillabebidas .cocktail .bordesfotos {
   border-radius: 10%;
-  border: solid #f49f33;
+  border: solid #fbca76;
 }
 main .grillabebidas .cocktail:first-child {
   grid-area: uno;
@@ -388,7 +383,7 @@ footer .links {
   align-items: center;
 }
 footer .links a {
-  color: black;
+  color: rgba(0, 0, 0, 0.979);
 }
 
 @media (max-width: 1072px) {
